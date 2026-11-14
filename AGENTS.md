@@ -32,3 +32,4 @@ use the editor.
 ## Project architecture
 
 - Keep PEEPAL transport views frontend-only, with typed data contracts, translations, and an isolated adapter boundary; this preserves independent backend integration without inventing operational data.
+- Keep role screens inside the PEEPAL feature boundary and drive navigation with local UI state, so this frontend stays integration-ready without introducing server dependencies.
